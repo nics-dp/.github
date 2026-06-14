@@ -1,19 +1,23 @@
 # Security Policy
 
 This policy applies to all repositories owned by the **nics-dp** organization
-unless a repository provides its own `SECURITY.md`.
+unless a repository provides its own `SECURITY.md`. Organization profile:
+<https://github.com/nics-dp>.
 
 ## Reporting a Vulnerability
 
 We take the security of our software seriously and appreciate responsible
 disclosure.
 
-**Preferred channel - GitHub Private Vulnerability Reporting:**
+**Preferred channel - GitHub Private Vulnerability Reporting (PVR):**
 
 1. Open the **Security** tab of the affected repository.
 2. Click **Report a vulnerability** to open a private advisory draft.
 3. Provide a clear description, affected versions, reproduction steps, and
    impact assessment.
+
+See GitHub's guide for step-by-step instructions:
+<https://docs.github.com/en/code-security/security-advisories/guidance-on-reporting-and-writing-information-about-vulnerabilities/privately-reporting-a-security-vulnerability>
 
 Private Vulnerability Reporting keeps the report confidential between you and
 the maintainers until a fix is published. For repositories where this option
@@ -50,3 +54,12 @@ This policy covers code and configuration maintained within nics-dp
 repositories. Vulnerabilities in third-party dependencies should be reported
 upstream; if a dependency issue affects our software, we will track and
 remediate it through our dependency management process.
+
+## References
+
+- GitHub Private Vulnerability Reporting:
+  <https://docs.github.com/en/code-security/security-advisories/working-with-repository-security-advisories/about-coordinated-disclosure-of-security-vulnerabilities>
+- Coordinated disclosure overview:
+  <https://docs.github.com/en/code-security/security-advisories>
+- OpenSSF vulnerability disclosure guide:
+  <https://github.com/ossf/oss-vulnerability-guide>
