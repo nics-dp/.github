@@ -7,7 +7,7 @@ unless a repository provides its own `SECURITY.md`. Organization profile:
 ## Reporting a Vulnerability
 
 We take the security of our software seriously and appreciate responsible
-disclosure.
+disclosure. Security contact: <ra-6@nics.nat.gov.tw>.
 
 **Preferred channel - GitHub Private Vulnerability Reporting (PVR):**
 
@@ -21,8 +21,8 @@ See GitHub's guide for step-by-step instructions:
 
 Private Vulnerability Reporting keeps the report confidential between you and
 the maintainers until a fix is published. For repositories where this option
-is unavailable, please contact the repository maintainers directly through the
-organization.
+is unavailable, or for any question about this policy, email the security
+contact: <ra-6@nics.nat.gov.tw>.
 
 **Please do not** open public issues, pull requests, or discussions for
 security vulnerabilities, and do not disclose the issue publicly until a fix
