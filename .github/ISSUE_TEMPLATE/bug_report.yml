@@ -6,8 +6,8 @@ body:
     attributes:
       value: |
         感謝回報。若此 repo 已納入 org 的 bug-verification 流程，修復的 PR merge 後，
-        這個 issue 會自動重新開啟並標為 **In QA**，通知你在測試環境重新驗證，通過再由你關閉。
-        流程與適用範圍：
+        這個 issue 會自動重新開啟並標為 **In QA**（每小時排程處理，最晚約 1 小時內，非即時），
+        通知你在測試環境重新驗證，通過再由你關閉。流程與適用範圍：
         https://github.com/nics-dp/TMDs/blob/main/docs/bug-tracking.md
   - type: textarea
     id: repro
