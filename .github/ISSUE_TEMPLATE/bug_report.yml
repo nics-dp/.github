@@ -1,0 +1,45 @@
+name: Bug report
+description: 回報一個 bug（會自動標記 bug，並在修復後進入 In QA 由你重新驗證）
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感謝回報。若此 repo 已納入 org 的 bug-verification 流程，修復的 PR merge 後，
+        這個 issue 會自動重新開啟並標為 **In QA**（每小時排程處理，最晚約 1 小時內，非即時），
+        通知你在測試環境重新驗證，通過再由你關閉。流程與適用範圍：
+        https://github.com/nics-dp/TMDs/blob/main/docs/bug-tracking.md
+  - type: textarea
+    id: repro
+    attributes:
+      label: 重現步驟
+      description: 一步步怎麼重現
+      placeholder: |
+        1. …
+        2. …
+        3. …
+    validations:
+      required: true
+  - type: textarea
+    id: behavior
+    attributes:
+      label: 實際行為 vs 預期行為
+      placeholder: |
+        實際：…
+        預期：…
+    validations:
+      required: true
+  - type: input
+    id: env
+    attributes:
+      label: 環境（OS / 版本或 commit）
+      placeholder: "macOS 14 / dcf-platform v0.2.4 (或 commit sha)"
+    validations:
+      required: true
+  - type: input
+    id: component
+    attributes:
+      label: 影響 repo / 元件（選填）
+      placeholder: "dcf-platform / synth-core / …"
+    validations:
+      required: false
