@@ -1,10 +1,12 @@
-<!-- 標題請用 Conventional Commits 格式：<type>(<scope>): <subject>（全小寫、結尾不加句號） -->
+<!-- 標題請用 Conventional Commits 格式：<type>(<scope>): <subject>
+     （團隊慣例：subject 全小寫、結尾不加句號） -->
 
 ## 變更摘要
 
 <!-- 這個 PR 做了什麼、為什麼。 -->
 
-Closes #
+Closes # <!-- 填 linked issue 編號（輸入 # 後可用自動補全）；pr-issue-check 會擋未連結 issue 的 PR -->
+
 
 ## 測試 Runbook
 
@@ -25,7 +27,7 @@ runbook 跟著 code 一起被 review：reviewer 看不懂怎麼驗，就是 runb
 ### 操作流程
 
 <!-- QA 逐步照做的操作，包含入口（URL / 指令）、前置條件、測試資料。例如：
-1. 開 https://grafana.<dev-domain>/dashboards，進入「run 執行追蹤」
+1. 開 `https://grafana.{dev-domain}/dashboards`，進入「run 執行追蹤」
 2. 以測試 project_id=... 查詢，確認 ...
 -->
 
